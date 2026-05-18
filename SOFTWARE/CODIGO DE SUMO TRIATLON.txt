@@ -1,0 +1,58 @@
+
+
+#include <PS4Controller.h>
+#define MOTOR1A 8
+#define MOTOR1B 7
+#define MOTOR2A 12
+#define MOTOR2B 11
+#define led 27
+int turbo = 0;
+
+void ADELANTE(int pin1, int pin2, int vel){
+  analogWrite(pin1, vel);
+  digitalWrite(pin2, LOW);  
+}
+void ATRAS(int pin1, int pin2, int vel){
+  digitalWrite(pin1, LOW);
+  analogWrite(pin2, vel);  
+}
+
+void setup() {
+  Serial.begin(115200);
+
+  PS4.begin(0A:2B:3C:4D:53:6F);
+  Serial.println("Ready.");
+
+  pinMode(MOTOR1A, OUTPUT);
+  pinMode(MOTOR1B, OUTPUT);
+  pinMode(MOTOR2A, OUTPUT);
+  pinMode(MOTOR2B, OUTPUT);
+  pinMode(led, OUTPUT); 
+
+}
+
+void loop() {
+  if (PS4.R2()) {
+    turbo = 100;
+  }
+  else {
+    turbo = 0;
+  }
+    if (PS4.LStickY() < 400){
+      int vel = map(PS4.LStickY(), 400, 0, 0, 155);
+      ATRAS(MOTOR1A, MOTOR1B, vel + turbo);
+    } else if (PS4.LStickY() > 600){
+      int vel = map(PS4.LStickY(), 600, 1024, 0, 155);
+      ADELANTE(MOTOR1A, MOTOR1B , vel + turbo);
+    }
+
+    if (PS4.RStickY() < 400 ){
+      int vel = map(PS4.RStickY(), 400, 0, 0, 155);
+      ADELANTE(MOTOR2A , MOTOR2B , vel + turbo);
+    } else if (PS4.RStickY() > 600){
+      int vel = map(PS4.RStickY(), 600, 1024, 0, 155);
+      ATRAS(MOTOR2A , MOTOR2B , vel + turbo);
+    }
+  }
+  
+} 
