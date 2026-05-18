@@ -2775,6 +2775,28 @@
 			)
 		)
 	)
+	(global_label "LPWM_2"
+		(shape input)
+		(at 153.416 55.118 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "07592f02-7fad-496b-8ae0-d1b43fea6bf7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 143.0528 55.118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "RPWM_1"
 		(shape input)
 		(at 33.02 27.94 180)
@@ -2841,6 +2863,28 @@
 			)
 		)
 	)
+	(global_label "RPWM_2"
+		(shape input)
+		(at 153.416 52.578 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "33bfa149-ea93-4dfd-bdf5-d6eea8b6ad88")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 142.8109 52.578 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LPWM_2"
 		(shape input)
 		(at 60.96 30.48 180)
@@ -2854,28 +2898,6 @@
 		(uuid "53ad1cd0-57fe-4295-9f4d-54b690da5bf8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 50.5968 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LPWM_2"
-		(shape input)
-		(at 153.416 57.658 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5e86d416-b3cd-4af1-9f96-3b0e2b4f53b6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.0528 57.658 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2920,28 +2942,6 @@
 		(uuid "afe8640b-2efd-4603-9acd-86a441269782")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 22.6568 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RPWM_2"
-		(shape input)
-		(at 153.416 55.118 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ba536ea3-8c2e-4333-8c82-007cb4082436")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.8109 55.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2998,7 +2998,7 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 81.788 14.732) (xy 139.954 14.986) (xy 140.208 54.102) (xy 82.042 54.356)
+				(xy 14.732 14.478) (xy 81.534 14.478) (xy 81.534 54.102) (xy 14.732 54.102)
 			)
 			(stroke
 				(width 0)
@@ -3007,37 +3007,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 2b63be1b-88e1-41ee-b44f-94b6db279982)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 81.788 56.388) (xy 139.954 56.642) (xy 140.208 95.758) (xy 82.042 96.012)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid b492c062-374e-4a96-bb03-db48242b8066)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 14.224 56.388) (xy 81.026 56.388) (xy 81.026 96.012) (xy 14.224 96.012)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid c6a34694-c93d-4b82-8741-1127cbe094d1)
+			(uuid 42665fb2-a9ee-4f9e-bc96-749fc345e500)
 		)
 	)
 	(rule_area
@@ -3052,13 +3022,13 @@
 			(fill
 				(type none)
 			)
-			(uuid cf4a4eab-9f16-44e8-bbb8-27c0a21cb2e1)
+			(uuid 532a34f9-2f70-40c2-8a0e-e12a752754b4)
 		)
 	)
 	(rule_area
 		(polyline
 			(pts
-				(xy 14.732 14.478) (xy 81.534 14.478) (xy 81.534 54.102) (xy 14.732 54.102)
+				(xy 81.788 14.732) (xy 139.954 14.986) (xy 140.208 54.102) (xy 82.042 54.356)
 			)
 			(stroke
 				(width 0)
@@ -3067,7 +3037,37 @@
 			(fill
 				(type none)
 			)
-			(uuid f94c3640-a444-4e1b-9ebd-525319ddd5de)
+			(uuid c17cced2-41b2-4da8-aa85-ccd90b852363)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 81.788 56.388) (xy 139.954 56.642) (xy 140.208 95.758) (xy 82.042 96.012)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid e146fd91-2551-4e32-8660-9d728d1a979b)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 14.224 56.388) (xy 81.026 56.388) (xy 81.026 96.012) (xy 14.224 96.012)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid f03de1dd-7dcb-45d4-bad3-6011d7fef26c)
 		)
 	)
 	(symbol
@@ -3138,73 +3138,6 @@
 			(project ""
 				(path "/1e69bcce-e18e-4ad5-b354-8db5e2d3f791"
 					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 115.316 46.99 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0e86e923-40e3-467e-ae65-2c838bf0506f")
-		(property "Reference" "#PWR025"
-			(at 121.666 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 119.126 46.9899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 115.316 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 115.316 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 115.316 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6bc91416-a824-4b6c-a605-e7ca037090e9")
-		)
-		(instances
-			(project "FUTBOLISTA"
-				(path "/1e69bcce-e18e-4ad5-b354-8db5e2d3f791"
-					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -3689,143 +3622,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 110.236 46.99 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8365e0d2-e331-4e24-892b-5172885e8038")
-		(property "Reference" "J2"
-			(at 110.236 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x02"
-			(at 110.236 41.402 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "EESTN5:BORNERA2"
-			(at 110.236 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 110.236 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 110.236 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0c716c9a-c404-44b3-b097-7146ab117a6d")
-		)
-		(pin "1"
-			(uuid "293b0d72-863e-4ba7-9aa3-025602213416")
-		)
-		(instances
-			(project "FUTBOLISTA"
-				(path "/1e69bcce-e18e-4ad5-b354-8db5e2d3f791"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 110.236 26.67 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "87aea975-a7ab-4956-87bd-0da2ab98d73e")
-		(property "Reference" "J1"
-			(at 110.236 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x02"
-			(at 110.236 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "EESTN5:BORNERA2"
-			(at 110.236 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 110.236 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 110.236 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a561c44e-82ce-4e0c-84cd-7ac12976789d")
-		)
-		(pin "1"
-			(uuid "8aead822-a128-4414-af6b-8a9657e12a95")
-		)
-		(instances
-			(project ""
-				(path "/1e69bcce-e18e-4ad5-b354-8db5e2d3f791"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 123.19 83.82 0)
 		(unit 1)
@@ -4181,73 +3977,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 115.316 26.67 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bbfc65ae-d90e-4ee1-8c16-b8666964f0a3")
-		(property "Reference" "#PWR022"
-			(at 121.666 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 119.126 26.6699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 115.316 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 115.316 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 115.316 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "98d26bef-62d0-4695-a4ee-b153ef545c1c")
-		)
-		(instances
-			(project "FUTBOLISTA"
-				(path "/1e69bcce-e18e-4ad5-b354-8db5e2d3f791"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 48.26 80.01 0)
 		(unit 1)
@@ -4379,73 +4108,6 @@
 			(project "FUTBOLISTA"
 				(path "/1e69bcce-e18e-4ad5-b354-8db5e2d3f791"
 					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 115.316 44.45 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d07f0f15-13ac-4183-8ab7-2ed7440aaf38")
-		(property "Reference" "#PWR010"
-			(at 111.506 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 119.126 44.4499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 115.316 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 115.316 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 115.316 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b6b516ab-7301-41f5-b753-0b678552c240")
-		)
-		(instances
-			(project "FUTBOLISTA"
-				(path "/1e69bcce-e18e-4ad5-b354-8db5e2d3f791"
-					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -5051,73 +4713,6 @@
 			(project ""
 				(path "/1e69bcce-e18e-4ad5-b354-8db5e2d3f791"
 					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 115.316 24.13 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f5316b06-e68c-4cd5-a805-3b673b8399fd")
-		(property "Reference" "#PWR09"
-			(at 111.506 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 119.126 24.1299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 115.316 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 115.316 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 115.316 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "703a55f8-8a1b-49a2-8629-9bd862d27056")
-		)
-		(instances
-			(project "FUTBOLISTA"
-				(path "/1e69bcce-e18e-4ad5-b354-8db5e2d3f791"
-					(reference "#PWR09")
 					(unit 1)
 				)
 			)
